@@ -1,0 +1,175 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 img{
+    font-size: small;
+    display:inline-block;
+    align-items: center;
+    max-width: auto;
+    height: 150px ;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #0c0c0c;
+    background-color: #6d6c6c;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header { 
+    background: #3f3f3f;
+    color: #f85e05;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-shadow: 2px 2px black;
+    text-align: center;
+    color: #ff7505; /* Laranja */
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #080808;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f34906; /* Laranja */
+}
+
+.hero {
+    background: #6d6c6c no-repeat center center/cover;
+    color: #080808;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background: #fa5d01; /* Laranja */
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: "background" 0.3s;
+}
+
+.btn:hover {
+    background: #0a0a0a; /* Laranja mais escuro */
+}
+
+.services, .portfolio, .about, .contact {
+    padding: 3rem 0;
+}
+
+.services h2, .portfolio h2, .about h2, .contact h2 {
+    text-shadow: 2px 2px black;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fc7405;
+}
+
+.service-list, .portfolio-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.service-item, .portfolio-item {
+    
+    background: #fcfbfb;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 2rem);
+    box-shadow: 0 2px 5px rgb(247, 90, 0);
+    transition: transform 0.3s;
+}
+
+.service-item:hover, .portfolio-item:hover {
+    transform: translateY(-10px);
+}
+
+.service-item h3, .portfolio-item p {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}    
+
+.p h2 {
+    text-align: center;
+}
+.contact form {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    text-align: center;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background: #f85c02; /* Laranja */
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:"background" 0.3s;
+}
+
+.contact button:hover {
+    background: #0c0c0c; /* Laranja mais escuro */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
