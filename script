@@ -12,4 +12,4 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
     console.log('Mensagem:', message);
 
     alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
-});67
+ });67
